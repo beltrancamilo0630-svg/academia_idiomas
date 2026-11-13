@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academia de Idiomas: aprende inglés, francés, portugués e italiano con grupos reducidos, profesores certificados y horarios flexibles.">
+  <meta name="theme-color" content="#0284C7">
+  <title>Academia de Idiomas | Aprende un idioma, abre el mundo</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/landing.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container site-nav">
+      <a class="site-logo" href="index.html" aria-label="Academia de Idiomas, inicio">
+        <span class="brand-mark">A</span>
+        <span class="site-logo-text">
+          <strong>Academia de Idiomas</strong>
+          <span>Aprende sin límites</span>
+        </span>
+      </a>
+
+      <nav class="site-links" aria-label="Navegación del sitio">
+        <a href="#idiomas">Idiomas</a>
+        <a href="#metodologia">Metodología</a>
+        <a href="#niveles">Niveles</a>
+        <a href="#sedes">Sedes</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <div class="site-actions">
+        <a class="btn btn-ghost" href="login.php">Ingresar</a>
+        <a class="btn btn-primary" href="login.php">
+          Matricúlate
+          <span data-icon="arrow-right"></span>
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#idiomas">Idiomas <span data-icon="chevron-right"></span></a>
+    <a href="#metodologia">Metodología <span data-icon="chevron-right"></span></a>
+    <a href="#niveles">Niveles <span data-icon="chevron-right"></span></a>
+    <a href="#sedes">Sedes <span data-icon="chevron-right"></span></a>
+    <a href="#contacto">Contacto <span data-icon="chevron-right"></span></a>
+    <a class="btn btn-primary" href="login.php">Ingresar al sistema</a>
+  </div>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="hero-badge">
+            <span class="pulse"></span>
+            Matrículas abiertas · Periodo 2026-2
+          </span>
+
+          <h1 class="display">
+            Aprende un idioma.<br>
+            <span class="accent">Abre el mundo.</span>
+          </h1>
+
+          <p class="lead">
+            Clases presenciales y virtuales con grupos reducidos, profesores certificados
+            y una ruta de niveles clara. Tu próximo idioma empieza hoy.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#idiomas">
+              Explorar programas
+              <span data-icon="arrow-right"></span>
+            </a>
+            <a class="btn btn-outline" href="#contacto">
+              <span data-icon="message-circle"></span>
+              Hablar con un asesor
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <strong>+1.200<span>.</span></strong>
+              <small>Estudiantes formados</small>
+            </div>
+            <div class="hero-stat">
+              <strong>4<span> idiomas</span></strong>
+              <small>Inglés, francés, portugués e italiano</small>
+            </div>
+            <div class="hero-stat">
+              <strong>98<span>%</span></strong>
+              <small>Satisfacción estudiantil</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-photo-wrap">
+            <img src="assets/img/hero.jpg" alt="Estudiantes conversando y practicando un nuevo idioma en clase" width="1200" height="1200">
+          </div>
+
+          <div class="float-card float-card-top">
+            <span class="icon-circle"><span data-icon="users"></span></span>
+            <div>
+              <strong>Grupos de máx. 16</strong>
+              <span>Atención personalizada</span>
+            </div>
+          </div>
+
+          <div class="float-card float-card-bottom">
+            <span class="icon-circle"><span data-icon="calendar-check"></span></span>
+            <div>
+              <strong>Próximo inicio</strong>
+              <span>12 de enero de 2027</span>
+            </div>
+          </div>
+
+          <div class="hero-rating">
+            <div class="stars" aria-hidden="true">
+              <span data-icon="star"></span><span data-icon="star"></span><span data-icon="star"></span><span data-icon="star"></span><span data-icon="star"></span>
+            </div>
+            <div>
+              <strong>4.9 / 5</strong>
+              <span>+380 reseñas de estudiantes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Language strip -->
+    <div class="lang-strip">
+      <div class="container lang-strip-inner">
+        <span class="lang-strip-label">Idiomas que enseñamos</span>
+        <div class="lang-strip-list">
+          <span class="lang-strip-item"><span class="flag flag-en"></span> Inglés <small>A1–C1</small></span>
+          <span class="lang-strip-item"><span class="flag flag-fr"></span> Francés <small>A1–B2</small></span>
+          <span class="lang-strip-item"><span class="flag flag-pt"></span> Portugués <small>A1–B1</small></span>
+          <span class="lang-strip-item"><span class="flag flag-it"></span> Italiano <small>A1–B1</small></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Programs -->
+    <section class="section programs" id="idiomas">
+      <div class="container">
+        <div class="section-head-center reveal">
+          <span class="eyebrow">Programas</span>
+          <h2>Un programa para cada meta</h2>
+          <p>
+            Elige el idioma y el nivel que necesitas. Todos nuestros programas combinan
+            práctica oral, gramática aplicada y seguimiento académico.
+          </p>
+        </div>
+
+        <div class="program-grid">
+          <article class="program-card reveal" style="--accent:#0284C7;--accent-soft:#E0F2FE">
+            <div class="program-card-top">
+              <span class="flag flag-en" aria-hidden="true"></span>
+              <span class="badge badge-primary no-dot">Más elegido</span>
+            </div>
+            <h3>Inglés</h3>
+            <div class="program-levels">Niveles A1 a C1 · 9 módulos</div>
+            <p>Comunicación real, preparación para exámenes y inglés para el trabajo.</p>
+            <div class="program-info">
+              <div><span data-icon="clock"></span> 3 clases por semana · 2 horas</div>
+              <div><span data-icon="users"></span> Grupos de 12 a 16 estudiantes</div>
+              <div><span data-icon="map-pin"></span> Sede Norte, Centro o virtual</div>
+            </div>
+            <div class="program-foot">
+              <div class="program-price">$320.000 <span>por mes · matrícula $120.000</span></div>
+              <a class="program-link" href="#contacto" aria-label="Solicitar información de inglés"><span data-icon="arrow-up-right"></span></a>
+            </div>
+          </article>
+
+          <article class="program-card reveal reveal-delay-1" style="--accent:#7C3AED;--accent-soft:#F5F3FF">
+            <div class="program-card-top">
+              <span class="flag flag-fr" aria-hidden="true"></span>
+              <span class="badge badge-violet no-dot">Nuevo horario</span>
+            </div>
+            <h3>Francés</h3>
+            <div class="program-levels">Niveles A1 a B2 · 6 módulos</div>
+            <p>Francés general con enfoque comunicativo y cultura francófona.</p>
+            <div class="program-info">
+              <div><span data-icon="clock"></span> 2 clases por semana · 2 horas</div>
+              <div><span data-icon="users"></span> Grupos de 10 a 14 estudiantes</div>
+              <div><span data-icon="map-pin"></span> Sede Norte o Centro</div>
+            </div>
+            <div class="program-foot">
+              <div class="program-price">$300.000 <span>por mes · matrícula $120.000</span></div>
+              <a class="program-link" href="#contacto" aria-label="Solicitar información de francés"><span data-icon="arrow-up-right"></span></a>
+            </div>
+          </article>
+
+          <article class="program-card reveal reveal-delay-2" style="--accent:#10B981;--accent-soft:#ECFDF5">
+            <div class="program-card-top">
+              <span class="flag flag-pt" aria-hidden="true"></span>
+              <span class="badge badge-success no-dot">Alta demanda</span>
+            </div>
+            <h3>Portugués</h3>
+            <div class="program-levels">Niveles A1 a B1 · 4 módulos</div>
+            <p>Portugués brasileño para viajar, estudiar o ampliar tu perfil profesional.</p>
+            <div class="program-info">
+              <div><span data-icon="clock"></span> Sábados · 4 horas</div>
+              <div><span data-icon="users"></span> Grupos de 10 a 16 estudiantes</div>
+              <div><span data-icon="map-pin"></span> Sede Centro o virtual</div>
+            </div>
+            <div class="program-foot">
+              <div class="program-price">$280.000 <span>por mes · matrícula $100.000</span></div>
+              <a class="program-link" href="#contacto" aria-label="Solicitar información de portugués"><span data-icon="arrow-up-right"></span></a>
+            </div>
+          </article>
+
+          <article class="program-card reveal reveal-delay-3" style="--accent:#F59E0B;--accent-soft:#FFFBEB">
+            <div class="program-card-top">
+              <span class="flag flag-it" aria-hidden="true"></span>
+              <span class="badge badge-warning no-dot">Grupo pequeño</span>
+            </div>
+            <h3>Italiano</h3>
+            <div class="program-levels">Niveles A1 a B1 · 4 módulos</div>
+            <p>Italiano desde cero con énfasis en conversación y expresión cultural.</p>
+            <div class="program-info">
+              <div><span data-icon="clock"></span> 2 clases por semana · 2 horas</div>
+              <div><span data-icon="users"></span> Grupos de 8 a 12 estudiantes</div>
+              <div><span data-icon="map-pin"></span> Sede Norte o virtual</div>
+            </div>
+            <div class="program-foot">
+              <div class="program-price">$280.000 <span>por mes · matrícula $100.000</span></div>
+              <a class="program-link" href="#contacto" aria-label="Solicitar información de italiano"><span data-icon="arrow-up-right"></span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section-sm features">
+      <div class="container">
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <span class="icon-circle"><span data-icon="users"></span></span>
+            <h3>Grupos reducidos</h3>
+            <p>Máximo 16 estudiantes por clase para que practiques y recibas retroalimentación real.</p>
+          </article>
+          <article class="feature-card reveal reveal-delay-1">
+            <span class="icon-circle violet"><span data-icon="award"></span></span>
+            <h3>Profesores certificados</h3>
+            <p>Docentes con formación pedagógica y experiencia internacional en la enseñanza de idiomas.</p>
+          </article>
+          <article class="feature-card reveal reveal-delay-2">
+            <span class="icon-circle success"><span data-icon="calendar"></span></span>
+            <h3>Horarios flexibles</h3>
+            <p>Clases en la mañana, tarde o noche, entre semana y sábados. Tú eliges el ritmo.</p>
+          </article>
+          <article class="feature-card reveal reveal-delay-3">
+            <span class="icon-circle warning"><span data-icon="layers"></span></span>
+            <h3>Plataforma académica</h3>
+            <p>Consulta notas, asistencia, horarios y pagos desde tu portal de estudiante.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Method -->
+    <section class="section method" id="metodologia">
+      <div class="container method-grid">
+        <div class="method-media reveal">
+          <img src="assets/img/classroom.jpg" alt="Profesora guiando una actividad de conversación en el salón de clases" loading="lazy" width="900" height="900">
+          <div class="method-badge">
+            <strong>+1.200</strong>
+            <span>estudiantes formados</span>
+          </div>
+        </div>
+
+        <div class="method-copy reveal reveal-delay-1">
+          <span class="eyebrow">Metodología</span>
+          <h2>Aprender hablando desde el primer día</h2>
+          <p>
+            No memorizas listas: usas el idioma en situaciones reales. Cada clase combina
+            práctica oral, comprensión, gramática aplicada y retroalimentación del profesor.
+          </p>
+
+          <div class="method-list">
+            <div class="method-item">
+              <span class="method-check"><span data-icon="check"></span></span>
+              <div>
+                <strong>Enfoque comunicativo</strong>
+                <span>Actividades de conversación, role-play y proyectos desde el nivel A1.</span>
+              </div>
+            </div>
+            <div class="method-item">
+              <span class="method-check"><span data-icon="check"></span></span>
+              <div>
+                <strong>Seguimiento personalizado</strong>
+                <span>Notas, asistencia y avance visibles en tu portal académico.</span>
+              </div>
+            </div>
+            <div class="method-item">
+              <span class="method-check"><span data-icon="check"></span></span>
+              <div>
+                <strong>Material digital incluido</strong>
+                <span>Recursos, ejercicios y grabaciones para repasar fuera de clase.</span>
+              </div>
+            </div>
+            <div class="method-item">
+              <span class="method-check"><span data-icon="check"></span></span>
+              <div>
+                <strong>Certificación por nivel</strong>
+                <span>Al finalizar cada módulo recibes un certificado con tu nivel MCER.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Levels -->
+    <section class="section levels" id="niveles">
+      <div class="container">
+        <div class="section-head-center reveal">
+          <span class="eyebrow">Ruta de aprendizaje</span>
+          <h2>Tu progreso, paso a paso</h2>
+          <p>
+            Trabajamos con el Marco Común Europeo de Referencia (MCER). Cada nivel tiene
+            objetivos claros y una evaluación final para avanzar con seguridad.
+          </p>
+        </div>
+
+        <div class="level-grid">
+          <article class="level-card reveal">
+            <span class="level-num">A1</span>
+            <h3>Principiante</h3>
+            <p>Presentaciones, vocabulario cotidiano y frases esenciales.</p>
+          </article>
+          <article class="level-card reveal reveal-delay-1">
+            <span class="level-num">A2</span>
+            <h3>Básico</h3>
+            <p>Conversaciones simples, rutinas y situaciones de viaje.</p>
+          </article>
+          <article class="level-card is-current reveal reveal-delay-2">
+            <span class="level-num">B1</span>
+            <h3>Intermedio</h3>
+            <p>Opinión, experiencias y comunicación en contextos reales.</p>
+          </article>
+          <article class="level-card reveal reveal-delay-3">
+            <span class="level-num">B2</span>
+            <h3>Intermedio alto</h3>
+            <p>Fluidez, argumentación y comprensión de textos complejos.</p>
+          </article>
+          <article class="level-card reveal reveal-delay-3">
+            <span class="level-num">C1</span>
+            <h3>Avanzado</h3>
+            <p>Dominio profesional, académico y expresión espontánea.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials">
+      <div class="container">
+        <div class="section-head-center reveal">
+          <span class="eyebrow">Testimonios</span>
+          <h2>Historias que nos inspiran</h2>
+          <p>Estudiantes que empezaron desde cero y hoy usan el idioma con confianza.</p>
+        </div>
+
+        <div class="testimonial-grid">
+          <article class="testimonial reveal">
+            <div class="stars" aria-label="5 de 5 estrellas">
+              <span data-icon="star"></span><span data-icon="star"></span><span data-icon="star"></span><span data-icon="star"></span><span data-icon="star"></span>
+            </div>
+            <blockquote>
+              “Llegué sin poder decir una frase completa y en seis meses ya sostenía
+              conversaciones en inglés. Las clases son dinámicas y el grupo es pequeño.”
+            </blockquote>
+            <div class="testimonial-author">
+              <span class="avatar avatar-teal">VR</span>
+              <div>
+                <strong>Valentina Ríos</strong>
+                <span>Inglés B1 · Sede Norte</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial reveal reveal-delay-1">
+            <div class="stars" aria-label="5 de 5 estrellas">
+              <span data-icon="star"></span><span data-icon="star"></span><span data-icon="star"></span><span data-icon="star"></span><span data-icon="star"></span>
+            </div>
+            <blockquote>
+              “El seguimiento desde la plataforma es excelente. Puedo ver mis notas,
+              mi asistencia y mis pagos sin tener que escribirle a nadie.”
+            </blockquote>
+            <div class="testimonial-author">
+              <span class="avatar avatar-violet">AF</span>
+              <div>
+                <strong>Andrés Felipe Castro</strong>
+                <span>Francés A2 · Sede Centro</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial reveal reveal-delay-2">
+            <div class="stars" aria-label="5 de 5 estrellas">
+              <span data-icon="star"></span><span data-icon="star"></span><span data-icon="star"></span><span data-icon="star"></span><span data-icon="star"></span>
+            </div>
+            <blockquote>
+              “Estudio portugués los sábados y el horario se adapta perfecto a mi trabajo.
+              La metodología es práctica y el profesor corrige con mucha paciencia.”
+            </blockquote>
+            <div class="testimonial-author">
+              <span class="avatar avatar-warning">LO</span>
+              <div>
+                <strong>Luisa Fernanda Ortiz</strong>
+                <span>Portugués A1 · Sede Centro</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="sedes">
+      <div class="container">
+        <div class="section-head-left reveal">
+          <span class="eyebrow">Sedes y contacto</span>
+          <h2>Estamos cerca de ti</h2>
+          <p>Visítanos o escríbenos. Te ayudamos a elegir el idioma, el nivel y el horario que mejor se adapte a tu rutina.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-card reveal">
+              <span class="icon-circle"><span data-icon="map-pin"></span></span>
+              <div>
+                <strong>Sede Norte</strong>
+                <p>Calle 116 # 15-42, Bogotá<br>Lunes a viernes · 7:00 a. m. – 9:00 p. m.<br>Sábados · 8:00 a. m. – 5:00 p. m.</p>
+              </div>
+            </div>
+            <div class="contact-card reveal reveal-delay-1">
+              <span class="icon-circle violet"><span data-icon="map-pin"></span></span>
+              <div>
+                <strong>Sede Centro</strong>
+                <p>Carrera 7 # 32-18, Bogotá<br>Lunes a viernes · 8:00 a. m. – 8:00 p. m.<br>Sábados · 8:00 a. m. – 2:00 p. m.</p>
+              </div>
+            </div>
+            <div class="contact-card reveal reveal-delay-2">
+              <span class="icon-circle success"><span data-icon="phone"></span></span>
+              <div>
+                <strong>Llámanos o escríbenos</strong>
+                <a href="tel:+576014567890">(601) 456 7890</a>
+                <a href="https://wa.me/573001234567" target="_blank" rel="noopener">WhatsApp: +57 300 123 4567</a>
+              </div>
+            </div>
+            <div class="contact-card reveal reveal-delay-3">
+              <span class="icon-circle warning"><span data-icon="mail"></span></span>
+              <div>
+                <strong>Correo electrónico</strong>
+                <a href="mailto:info@academiadeidiomas.edu.co">info@academiadeidiomas.edu.co</a>
+                <p>Respondemos en menos de 24 horas hábiles.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form reveal reveal-delay-1">
+            <h3>Solicita una asesoría gratuita</h3>
+            <p>Cuéntanos qué idioma te interesa y te contactamos para agendar una prueba de nivel.</p>
+
+            <form id="contactForm" class="form-grid">
+              <div class="field">
+                <label class="label" for="contactName">Nombre completo</label>
+                <input class="input" id="contactName" name="name" type="text" placeholder="Tu nombre" required>
+              </div>
+              <div class="field">
+                <label class="label" for="contactPhone">Teléfono</label>
+                <input class="input" id="contactPhone" name="phone" type="tel" placeholder="300 000 0000" required>
+              </div>
+              <div class="field col-span-2">
+                <label class="label" for="contactEmail">Correo electrónico</label>
+                <input class="input" id="contactEmail" name="email" type="email" placeholder="tucorreo@ejemplo.com" required>
+              </div>
+              <div class="field col-span-2">
+                <label class="label" for="contactProgram">Programa de interés</label>
+                <select class="select" id="contactProgram" name="program" required>
+                  <option value="">Selecciona un idioma</option>
+                  <option>Inglés</option>
+                  <option>Francés</option>
+                  <option>Portugués</option>
+                  <option>Italiano</option>
+                  <option>Aún no estoy seguro</option>
+                </select>
+              </div>
+              <div class="field col-span-2">
+                <label class="label" for="contactMessage">¿Cómo podemos ayudarte?</label>
+                <textarea class="textarea" id="contactMessage" name="message" placeholder="Cuéntanos tu objetivo, disponibilidad de horario o nivel actual."></textarea>
+              </div>
+              <div class="col-span-2">
+                <button class="btn btn-primary btn-block" type="submit">
+                  Enviar solicitud
+                  <span data-icon="send"></span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-band">
+      <div class="container">
+        <div class="cta-inner reveal">
+          <div class="cta-copy">
+            <span class="eyebrow">Empieza hoy</span>
+            <h2>Tu próximo idioma no espera. Nosotros tampoco.</h2>
+            <p>Agenda tu prueba de nivel gratuita y asegura tu cupo para el periodo 2026-2.</p>
+          </div>
+          <div class="cta-actions">
+            <a class="btn btn-primary btn-lg" href="login.php">
+              Ingresar al sistema
+              <span data-icon="arrow-right"></span>
+            </a>
+            <a class="btn btn-outline btn-lg" href="#contacto">Agendar asesoría</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="site-logo" href="index.html">
+            <span class="brand-mark">A</span>
+            <span class="site-logo-text">
+              <strong>Academia de Idiomas</strong>
+              <span>Aprende sin límites</span>
+            </span>
+          </a>
+          <p>
+            Formamos personas capaces de comunicarse con confianza en un mundo global.
+            Inglés, francés, portugués e italiano con acompañamiento real.
+          </p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook" data-toast="Red social de demostración"><span data-icon="facebook"></span></a>
+            <a href="#" aria-label="Instagram" data-toast="Red social de demostración"><span data-icon="instagram"></span></a>
+            <a href="#" aria-label="LinkedIn" data-toast="Red social de demostración"><span data-icon="linkedin"></span></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Programas</h4>
+          <ul>
+            <li><a href="#idiomas">Inglés</a></li>
+            <li><a href="#idiomas">Francés</a></li>
+            <li><a href="#idiomas">Portugués</a></li>
+            <li><a href="#idiomas">Italiano</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Academia</h4>
+          <ul>
+            <li><a href="#metodologia">Metodología</a></li>
+            <li><a href="#niveles">Niveles y certificación</a></li>
+            <li><a href="#sedes">Nuestras sedes</a></li>
+            <li><a href="#contacto">Trabaja con nosotros</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <ul>
+            <li><a href="tel:+576014567890">(601) 456 7890</a></li>
+            <li><a href="mailto:info@academiadeidiomas.edu.co">info@academiadeidiomas.edu.co</a></li>
+            <li><a href="#sedes">Calle 116 # 15-42, Bogotá</a></li>
+            <li><a href="login.php">Portal académico</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Academia de Idiomas. Proyecto académico de demostración.</span>
+        <span>
+          <a href="#">Política de privacidad</a> ·
+          <a href="#">Términos de uso</a> ·
+          <a href="login.php">Sistema académico</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/shell.js?v=3"></script>
+  <script src="js/main.js?v=3"></script>
+</body>
+</html>
